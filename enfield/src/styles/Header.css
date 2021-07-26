@@ -1,0 +1,17 @@
+.header-font{
+  font-family: 'Cinzel Decorative';
+  font-size: 45px;
+
+  text-align: center;
+  align-items: center;
+  padding: 0;
+}
+
+.logo{
+  color:black;
+  height: 5px;
+}
+
+.icon-color{
+  color: #ccd6f6;
+}

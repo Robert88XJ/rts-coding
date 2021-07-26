@@ -1,0 +1,11 @@
+.profile-image{
+  /* max-width: 250px; */
+  max-height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  align-self: flex-start;
+  border-bottom: 1px solid #ccd6f6; 
+}

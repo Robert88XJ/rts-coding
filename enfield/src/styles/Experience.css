@@ -1,0 +1,25 @@
+.title{
+  align-self: flex-start;
+  border-bottom: 1px solid #ccd6f6; 
+}
+
+.card-nav{
+  align-self: flex-start;
+  /* border-bottom: 1px solid #ccd6f6;  */
+  color: #ccd6f6; 
+}
+
+.nav-item{
+  color: #ccd6f6!important;
+  /* text-decoration: none; */
+  border-bottom: 1px solid gray;
+}
+
+.selected{
+  background-color: white!important;
+  color: black!important;
+}
+.unselected{
+  background-color: #0a192f!important;
+  color: white!important;
+}
