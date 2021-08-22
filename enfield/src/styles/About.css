@@ -8,4 +8,9 @@
 .title{
   align-self: flex-start;
   border-bottom: 1px solid #ccd6f6; 
+  
+}
+
+.content-font{
+  font-size: 1rem;
 }

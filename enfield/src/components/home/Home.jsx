@@ -12,11 +12,11 @@ const Home = () =>{
 
 
   return (
-    <div className="hero-container">
+    <div className="hero-container" style={{justifyContent: 'center'}}>
       <Container> 
         <Row>
           <Col md={12}>
-            <h4>Hello. I am</h4>
+            <h4>Hello! I am</h4>
             <h1 className="big-heading">Robert Swanson </h1>  
             <h3>{work.title}</h3>
             <p style={{borderTop: '1px solid #ccd6f6', maxWidth: '100%'}}/>
