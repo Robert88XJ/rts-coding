@@ -4,6 +4,7 @@ import { Col,Collapse, Container, Nav, Row} from 'react-bootstrap'
 import { Squash } from 'hamburger-react'
 import {OpenIconLogo, CloseIconLogo} from '../icon/Icon'
 import {useHistory} from "react-router-dom"
+import linkedInLogo from '../../media/LI-In-Bug.png'
 
 export const Header = () => {
   const [isOpen, setOpen] = useState(false)
@@ -39,6 +40,7 @@ export const Header = () => {
               <Nav.Link style={{color:'white'}} href="/experience"> Experience </Nav.Link>
               <Nav.Link style={{color:'white'}} href="/about"> About </Nav.Link>
               <Nav.Link style={{color:'white', borderLeft: "1px solid #ccd6f6"}} href="/resume">Resume</Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/robert-t-swanson/"> <img style={{height:'25px'}} src={linkedInLogo}/>  </Nav.Link>
             </Nav>
           </div>
 
@@ -62,6 +64,11 @@ export const Header = () => {
                     <li className="nav-item" style={{border:'none'}}>
                       <a className="nav-link" href="/resume">Resume</a>
                     </li>
+                    <li className="nav-item" style={{border:'none'}}>
+                      <a className="nav-link" href='https://www.linkedin.com/in/robert-t-swanson/'>
+                        <img style={{height:'25px'}} src={linkedInLogo}/> 
+                      </a>
+                    </li>                    
                   </ul>
                 </Collapse>
             </Nav>

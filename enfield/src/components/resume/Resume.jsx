@@ -21,7 +21,7 @@ export const Resume = () =>{
   }
 
   return(
-    <div style={{paddingLeft:'25vw', paddingTop:'20px'}}>
+    <div style={{paddingLeft:'15vw', paddingTop:'20px'}}>
       <Document file={pdf} onSourceError={docError} onLoadSuccess={onDocumentLoadSuccess}>
         <Page height={1200} pageNumber={pageNumber}/>
       </Document>
