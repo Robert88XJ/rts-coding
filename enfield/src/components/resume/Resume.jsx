@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Col} from 'react-bootstrap'
 import { Document, Page, pdfjs } from 'react-pdf';
 import resume from '../../media/2021-Resume.pdf'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
@@ -20,9 +21,11 @@ export const Resume = () =>{
   }
 
   return(
-    <Document file={pdf} onSourceError={docError} onLoadSuccess={onDocumentLoadSuccess}>
-      <Page pageNumber={pageNumber}/>
-    </Document>
+    <div style={{paddingLeft:'25vw', paddingTop:'20px'}}>
+      <Document file={pdf} onSourceError={docError} onLoadSuccess={onDocumentLoadSuccess}>
+        <Page height={1200} pageNumber={pageNumber}/>
+      </Document>
+      </div>
   )
 }
 
